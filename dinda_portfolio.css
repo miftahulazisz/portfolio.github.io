@@ -1,0 +1,449 @@
+body {
+  margin: 0%;
+  background-color: #101010;
+  color: #808080;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+*a {
+  margin: 0%;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+button,
+input {
+  font: bold 13px/30px "Montserrat", arial, sans-serif;
+  box-sizing: border-box;
+  border: 2.5px solid white;
+  background-color: #101010;
+  color: white;
+}
+/* div navigasi */
+.navigation {
+  height: 100px;
+
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.navigation-content {
+  background-color: rgb(32, 32, 32);
+  /* display: flex; */
+  /* justify-content: space-between; */
+
+  margin: auto;
+  position: relative;
+  top: 60%;
+
+  box-sizing: border-box;
+}
+
+.navigation .navigation-content {
+  box-sizing: border-box;
+}
+.navigation .navigation-content a img {
+  margin-top: 8px;
+  box-sizing: border-box;
+}
+.navigation .navigation-content #items {
+  margin: 0;
+  background-color: #333;
+  display: none;
+}
+.navigation .navigation-content #items a {
+  display: block;
+  overflow: hidden;
+  text-decoration: none;
+  color: white;
+  padding-left: 3%;
+  margin: 0%;
+}
+
+.navigation-content a.icon {
+  display: block;
+  margin: 0;
+  color: white;
+  background: black;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+  width: 70px;
+  height: 83px;
+  box-sizing: border-box;
+}
+
+.fa.fa-bars {
+  color: white;
+  margin: auto;
+  font-size: 25px;
+  padding: 26px;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+.navigation .navigation-content #items a:hover {
+  color: gold;
+}
+/* akhir navigasi */
+.home {
+  background: url(dinda_wisuda.jpg) no-repeat;
+  min-height: 700px;
+  background-position: bottom;
+  width: 100%;
+  background-size: cover;
+}
+
+/* divider */
+.divider {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -30px;
+  color: white;
+  font-size: 14px;
+  line-height: 1.43;
+}
+.divider-row {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 20px;
+}
+.divider-row.satu {
+  background-color: #c14000;
+}
+.divider-row.dua {
+  background-color: #009988;
+}
+.divider-row.tiga {
+  background-color: #ffa500;
+}
+.divider .material-symbols-outlined {
+  border-radius: 1%;
+  font-size: 50px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  line-height: 76px;
+}
+
+/* about */
+.about {
+  padding-top: 60px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+.about-image {
+  width: 50%;
+  height: 100%;
+}
+.about-image img {
+  width: 100%;
+  height: 100%;
+}
+.about .about-content {
+  height: 100%;
+  padding: 20px 20px 10px 20px;
+  box-sizing: border-box;
+  width: 50%;
+  background-color: rgb(32, 32, 32);
+}
+.about-content p {
+  color: #808080;
+  font-size: 13px;
+}
+.about button {
+  padding: 12px 18px;
+  margin: 4% 0% 0%;
+}
+/* end about */
+/* project */
+.project {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+.project .project-column1 {
+  text-align: center;
+}
+.project .project-column1 h1 {
+  color: white;
+  font: bold bold 30px/30px "Montserrat", sans-serif;
+}
+.project .project-column1 p {
+  font-size: 14px;
+}
+.project .project-column2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.project .project-column2 .image {
+  width: 100%;
+}
+.project-column3 {
+  text-align: center;
+}
+.project .project-column3 button {
+  padding: 8px 12px;
+  margin-top: 2.5%;
+}
+/* akhir project */
+.footer {
+  background-color: #1c1c1c;
+}
+.pembungkus-footer {
+  display: flex;
+  margin: auto;
+  box-sizing: border-box;
+}
+.footer .pembungkus-footer .f {
+  width: 30.33%;
+  flex: 1 1 0;
+}
+.pembungkus-footer .f i {
+  margin-right: 10px;
+}
+.footer .f h1 {
+  color: white;
+  font-size: 24px;
+}
+.footer .f p {
+  font-size: 80%;
+}
+.pembungkus-footer .f.dua {
+  padding-left: 5%;
+  box-sizing: border-box;
+}
+input.form-control {
+  font-size: 14px;
+  color: white;
+}
+.f.tiga form button {
+  margin-top: 10px;
+}
+
+/* akhir footer */
+
+/* copyright */
+.copyright {
+  display: flex;
+  margin: 15px auto;
+}
+.copyright p {
+  flex: 1 1 0;
+  font-size: 14px;
+}
+.social-icons {
+  flex: 1 1 0;
+  display: flex;
+  gap: 10px;
+}
+.social-icons li {
+  list-style: none;
+}
+.social-icons li a {
+  color: rgb(144, 144, 144);
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 15px;
+  text-align: center;
+  transition: all 0.4s ease-in 0s;
+  background-color: #1c1c1c;
+}
+
+/* akhir ciopyright */
+
+/* media query mobile-tablet */
+@media screen and (min-width: 100px) and (max-width: 768px) {
+  .navigation {
+    width: 95%;
+    margin: auto;
+  }
+  .home {
+    min-height: 400px;
+    background-position: bottom;
+    width: 100%;
+    background-size: cover;
+  }
+  .divider {
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .about {
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .about .about-image,
+  .about .about-content {
+    width: 100%;
+  }
+  .project {
+    width: 95%;
+    margin: auto;
+  }
+  .project .project-column2 .image {
+    width: 50%;
+  }
+
+  .project-column2 .image.tujuh {
+    width: 100%;
+  }
+  .footer .pembungkus-footer {
+    width: 95%;
+    flex-direction: column;
+  }
+  .pembungkus-footer .f.dua {
+    padding-left: 0;
+  }
+  .copyright {
+    width: 95%;
+    flex-direction: column;
+  }
+}
+/* akhir media query mobile - tableet */
+/* media query dekstop */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .navigation {
+    width: 75%;
+    margin: auto;
+  }
+
+  .home {
+    height: 100;
+  }
+  .divider {
+    height: 550px;
+    width: 75%;
+    margin: auto;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+  .divider-row {
+    width: 48%;
+  }
+  .divider-row.tiga {
+    width: 100%;
+  }
+  .about {
+    margin: auto;
+    width: 75%;
+    flex-direction: column;
+  }
+  .about .about-image,
+  .about .about-content {
+    width: 100%;
+  }
+  .project {
+    width: 75%;
+    margin: auto;
+  }
+  .project .project-column2 .image {
+    width: 33.3%;
+  }
+
+  .project-column2 .image.empat,
+  .project-column2 .image.lima,
+  .project-column2 .image.enam,
+  .project-column2 .image.tujuh {
+    width: 50%;
+  }
+  .footer .pembungkus-footer {
+    width: 75%;
+  }
+  .copyright {
+    width: 75%;
+  }
+}
+/* akhir media query dekstop */
+/* media query tv/extra large */
+@media screen and (min-width: 993px) {
+  .navigation {
+    width: 80%;
+    margin: auto;
+  }
+  .divider {
+    margin: auto;
+    width: 80%;
+  }
+
+  .divider-row {
+    width: 30.82%;
+  }
+  .about {
+    height: 300px;
+    margin: auto;
+    width: 80%;
+  }
+  .project {
+    width: 80%;
+    margin: auto;
+  }
+  .project .project-column2 .image {
+    width: 33.3%;
+  }
+  .project-column2 .image.empat,
+  .project-column2 .image.lima,
+  .project-column2 .image.enam,
+  .project-column2 .image.tujuh {
+    width: 25%;
+  }
+  .footer .pembungkus-footer {
+    width: 80%;
+  }
+  .copyright {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .navigation {
+    width: 1000px;
+    margin: auto;
+  }
+  .divider {
+    margin: auto;
+    width: 1000px;
+  }
+
+  .divider-row {
+    width: 30.82%;
+  }
+  .about {
+    height: 350px;
+    width: 1000px;
+    margin: auto;
+  }
+  .about button {
+    margin: 35px 0% 0%;
+  }
+  .project {
+    width: 1000px;
+    margin: auto;
+  }
+  .project .project-column2 .image {
+    width: 33.3%;
+  }
+  .project-column2 .image.empat,
+  .project-column2 .image.lima,
+  .project-column2 .image.enam,
+  .project-column2 .image.tujuh {
+    width: 25%;
+  }
+  .footer .pembungkus-footer {
+    width: 1000px;
+  }
+  .copyright {
+    width: 1000px;
+  }
+}
+/* akhir media query tv/extra large */
